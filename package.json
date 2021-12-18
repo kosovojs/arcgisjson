@@ -1,0 +1,20 @@
+{
+	"name": "arcgisjson",
+	"description": "Convert between ArcGIS JSON and GeoJSON",
+	"version": "0.0.1",
+	"main": "index.js",
+	"bin": {
+		"arcgisjson": "./index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kosovojs/arcgisjson.git"
+	},
+	"author": "Edgars Košovojs",
+	"license": "ISC",
+	"dependencies": {
+		"@terraformer/arcgis": "^2.1.0",
+		"commander": "^8.3.0"
+	},
+	"scripts": {}
+}
